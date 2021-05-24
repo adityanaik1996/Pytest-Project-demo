@@ -1,0 +1,10 @@
+.idea
+.pytest_cache
+.vs
+.vscode
+__pycache__
+allure-2.10.0
+allurereports
+automation.log
+Automation.log
+.idea/workspace.xml
