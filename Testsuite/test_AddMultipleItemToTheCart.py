@@ -4,9 +4,7 @@ import utilities.custom_logger as cl
 import time as t
 import sys
 import os
-
 from utilities.BaseClass import BaseClass
-
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..."))
 from pages.GreenCartHomePage import GreenCartHomePageObjs
 
