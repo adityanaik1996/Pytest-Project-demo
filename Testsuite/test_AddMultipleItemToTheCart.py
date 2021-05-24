@@ -8,6 +8,7 @@ from utilities.BaseClass import BaseClass
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..."))
 from pages.GreenCartHomePage import GreenCartHomePageObjs
 
+
 @pytest.mark.usefixtures("setup")
 class TestAddAndValidateItemsInCart():
     log = cl.customLogger(logging.DEBUG)
